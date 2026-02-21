@@ -3,7 +3,7 @@
  * A horizontally scrollable infinite-scroll carousel card for Home Assistant Lovelace.
  *
  * @license MIT
- * @see https://github.com/YOUR_USERNAME/lovelace-scroll-carousel
+ * @see https://github.com/iscofield/lovelace-scroll-carousel
  */
 
 // TODO: Implement based on docs/specs/2026-02-19-scroll-carousel-card.md
@@ -64,5 +64,5 @@ window.customCards.push({
   name: 'Lovelace Scroll Carousel',
   description: 'A horizontally scrollable infinite-scroll carousel for Lovelace.',
   preview: false,
-  documentationURL: 'https://github.com/YOUR_USERNAME/lovelace-scroll-carousel',
+  documentationURL: 'https://github.com/iscofield/lovelace-scroll-carousel',
 });

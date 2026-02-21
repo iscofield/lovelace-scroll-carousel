@@ -1,7 +1,7 @@
 # Lovelace Scroll Carousel
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![GitHub release](https://img.shields.io/github/release/YOUR_USERNAME/lovelace-scroll-carousel.svg)](https://github.com/YOUR_USERNAME/lovelace-scroll-carousel/releases)
+[![GitHub release](https://img.shields.io/github/release/iscofield/lovelace-scroll-carousel.svg)](https://github.com/iscofield/lovelace-scroll-carousel/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A Home Assistant Lovelace card that renders child cards in a **freely scrollable, infinite-scroll horizontal carousel** — using native browser scrolling instead of CSS transforms. Supports touch swipe, mouse drag, scroll wheel, and full keyboard navigation. Wraps around seamlessly so you never hit a hard edge.
@@ -39,13 +39,13 @@ Existing HACS carousel cards (`simple-swipe-card`, `swipe-card`) use `transform:
 
 1. Open **HACS** in Home Assistant
 2. Go to **Frontend** → click the **⋮ menu** → **Custom repositories**
-3. Add `https://github.com/YOUR_USERNAME/lovelace-scroll-carousel` as type **Lovelace**
+3. Add `https://github.com/iscofield/lovelace-scroll-carousel` as type **Lovelace**
 4. Find **Lovelace Scroll Carousel** in the HACS Frontend store and install it
 5. **Hard-refresh** your browser (Ctrl+Shift+R / Cmd+Shift+R)
 
 ### Manual
 
-1. Download `lovelace-scroll-carousel.js` from the [latest release](https://github.com/YOUR_USERNAME/lovelace-scroll-carousel/releases/latest)
+1. Download `lovelace-scroll-carousel.js` from the [latest release](https://github.com/iscofield/lovelace-scroll-carousel/releases/latest)
 2. Copy it to `config/www/lovelace-scroll-carousel.js`
 3. Add a resource in your dashboard settings (or in `configuration.yaml`):
 
@@ -181,7 +181,7 @@ Requires Home Assistant **0.107** or later (for `loadCardHelpers()`).
 Pull requests are welcome! Please open an issue first to discuss significant changes.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lovelace-scroll-carousel
+git clone https://github.com/iscofield/lovelace-scroll-carousel
 # Edit lovelace-scroll-carousel.js
 # Test in Home Assistant developer mode
 ```
