@@ -39,7 +39,7 @@ Existing HACS carousel cards (`simple-swipe-card`, `swipe-card`) use `transform:
 
 1. Open **HACS** in Home Assistant
 2. Go to **Frontend** → click the **⋮ menu** → **Custom repositories**
-3. Add `https://github.com/iscofield/lovelace-scroll-carousel` as type **Lovelace**
+3. Add `https://github.com/iscofield/lovelace-scroll-carousel` as type **Dashboard**
 4. Find **Lovelace Scroll Carousel** in the HACS Frontend store and install it
 5. **Hard-refresh** your browser (Ctrl+Shift+R / Cmd+Shift+R)
 
